@@ -18,4 +18,5 @@ NodeDLL* DLL_SerchNode(ElementType data, NodeDLL* head, NodeDLL* tail);
 void DLL_RemoveNode(NodeDLL* delnode);
 void DLL_InsertAfter(NodeDLL* fnode, NodeDLL* newnode);
 void DLL_InsertBefore(NodeDLL* fnode, NodeDLL* newnode);
+void DLL_Destroy(NodeDLL* head, NodeDLL* tail);
 #endif

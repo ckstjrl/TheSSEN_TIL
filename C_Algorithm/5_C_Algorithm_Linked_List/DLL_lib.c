@@ -4,7 +4,7 @@ NodeDLL* DLL_CreateNode(ElementType data) {
     NodeDLL* newnode = NULL;
     newnode = (NodeDLL*)malloc(sizeof(NodeDLL));
     if (newnode == NULL) {
-        printf("¸Þ¸ð¸® ºÎÁ·\n");
+        printf("ë©”ëª¨ë¦¬ ë¶€ì¡±\n");
         return NULL;
     }
     newnode->Data = data;
@@ -27,8 +27,8 @@ void DLL_PrintNode(NodeDLL* head, NodeDLL* tail) {
     }
     printf("\n");
 }
-// data¸¦ »ç¿ëÇÏ¿© ³ëµå¸¦ °Ë»öÇÏ¿© °°Àº °ªÀ» °®´Â ³ëµå ¹ÝÈ¯
-// Ã£Áö ¸øÇÏ´Â °æ¿ì NULLÀ» ¹ÝÈ¯
+// dataë¥¼ ì‚¬ìš©í•˜ì—¬ ë…¸ë“œë¥¼ ê²€ìƒ‰í•˜ì—¬ ê°™ì€ ê°’ì„ ê°–ëŠ” ë…¸ë“œ ë°˜í™˜
+// ì°¾ì§€ ëª»í•˜ëŠ” ê²½ìš° NULLì„ ë°˜í™˜
 NodeDLL* DLL_SerchNode(ElementType data, NodeDLL *head, NodeDLL *tail) {
     for (NodeDLL* curr = head->next; curr != tail; curr = curr->next) {
         if (curr->Data == data) {
@@ -37,13 +37,13 @@ NodeDLL* DLL_SerchNode(ElementType data, NodeDLL *head, NodeDLL *tail) {
     }
     return NULL;
 }
-//delnode »èÁ¦
+//delnode ì‚­ì œ
 void DLL_RemoveNode(NodeDLL *delnode) {
     delnode->prev->next = delnode->next;
     delnode->next->prev = delnode->prev;
     free(delnode);
 }
-//»ðÀÔ
+//ì‚½ìž…
 void DLL_InsertAfter(NodeDLL* fnode, NodeDLL* newnode) {
     newnode->prev = fnode;
     newnode->next = fnode->next;
