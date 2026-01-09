@@ -1,0 +1,48 @@
+﻿<Window x:Class="Product_list.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Product_list"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Horizontal">
+        <Grid Width="300">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="id" Grid.Row="0" Grid.Column="0"/>
+            <TextBox x:Name="idv" Grid.Row="0" Grid.Column="1"/>
+            <TextBlock Text="name" Grid.Row="1" Grid.Column="0"/>
+            <TextBox x:Name="namev" Grid.Row="1" Grid.Column="1"/>
+            <TextBlock Text="price" Grid.Row="2" Grid.Column="0"/>
+            <TextBox x:Name="pricev" Grid.Row="2" Grid.Column="1"/>
+            <TextBlock Text="amount" Grid.Row="3" Grid.Column="0"/>
+            <TextBox x:Name="amountv" Grid.Row="3" Grid.Column="1"/>
+            <TextBlock Text="isout" Grid.Row="4" Grid.Column="0"/>
+            <CheckBox x:Name="isoutv" Grid.Row="4" Grid.Column="1"/>
+            <Button Content="save" Grid.Row="5" Click="Button_Click" />
+            <Button Content="edit" Grid.Row="5" Grid.Column="1" Click="Button_Click_1" />
+            <Button Content="del" Grid.Row="6" Click="Button_Click_2" />
+        </Grid>
+        <DataGrid x:Name="prodlist" AutoGenerateColumns="False" SelectionChanged="prodlist_SelectionChanged" Width="214">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="price" Binding="{Binding Price}" />
+                <DataGridTextColumn Header="amount" Binding="{Binding Amount}" />
+                <DataGridCheckBoxColumn Header="isout" Binding="{Binding isOut}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</Window>
