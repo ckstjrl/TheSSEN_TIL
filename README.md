@@ -14,14 +14,6 @@ LIG Nex1 The SSEN 임베디드 스쿨 수업 TIL
 ## 📁 Directory Structure
 ```
 TheSSEN_TIL
-├─ C_Algorithm
-│  ├─ 1_C_Algorithm_Recursive_Function
-│  ├─ 2_C_Algorithm_Recursive_Function_2_Prac
-│  ├─ 3_C_Algorithm_Recursive_Function_3_Prac
-│  ├─ 4_C_Algorithm_BFS
-│  ├─ 5_C_Algorithm_Linked_List
-│  └─ 6_C_Algorithm_Priority_Queue
-│
 ├─ C_study
 │  ├─ img
 │  ├─ 1_C_DataTypes.md
@@ -32,6 +24,14 @@ TheSSEN_TIL
 │  ├─ 6_C_Function_Pointer.md
 │  ├─ 7_C_Dynamic_Allocation_Struct.md
 │  └─ 8_C_Struct_Union.md
+│
+├─ C_Algorithm
+│  ├─ 1_C_Algorithm_Recursive_Function
+│  ├─ 2_C_Algorithm_Recursive_Function_2_Prac
+│  ├─ 3_C_Algorithm_Recursive_Function_3_Prac
+│  ├─ 4_C_Algorithm_BFS
+│  ├─ 5_C_Algorithm_Linked_List
+│  └─ 6_C_Algorithm_Priority_Queue
 │
 ├─ C++
 │  ├─ 1_C++_OOP_Basic.md
@@ -74,8 +74,11 @@ TheSSEN_TIL
 │  ├─ img
 │  ├─ 1_Embedded_SW_Basics1.md
 │  ├─ 2_Embedded_SW_Basic2.md
-│  ├─ 3_Processor_Architecture_Device_Programming1.md
-│  └─ 4_Processor_Architecture_Device_Programming2.md
+│  ├─ 3_Core_Architecture_and_Execution_Model.md
+│  ├─ 4_GPIO_and_Memory_Bus_Architecture.md
+│  ├─ 5_Clock_and_Interrupt_Architecture.md
+│  ├─ 6_Exception_and_USART.md
+│  └─ 
 │
 └─ README.md
 
