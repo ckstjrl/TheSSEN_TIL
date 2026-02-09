@@ -71,9 +71,9 @@ CORTEX = 프로세서
 
 STM32 = MCU
 
-![image.png](../Embedded_SW/img/STM_pic.png))
+![image.png](../img/STM_pic.png)
 
-![image.png](../Embedded_SW/img/STM_struct.png)
+![image.png](../img/STM_struct.png)
 
 ## 레지스터
 
@@ -108,7 +108,7 @@ STM32 = MCU
         f11()
         {
             f111();
-        )
+        }
         ```
         
         함수가 꼬리를 물고 호출하는 궤적을 기억 → call trace 
@@ -124,7 +124,7 @@ STM32 = MCU
 
 ## 동작 모드
 
-![image.png](../Embedded_SW/img/activemode.png)
+![image.png](../img/activemode.png)
 
 ### 동작모드 전환
 
@@ -234,7 +234,7 @@ CONTROL=0x00000001
 
 ### 특권 vs 비특권 권한
 
-![image.png](../Embedded_SW/img/privileged.png)
+![image.png](../img/privileged.png)
 
 ### SP 레지스터
 
@@ -249,7 +249,7 @@ CONTROL=0x00000001
 - R15 또는 PC를 사용하여 명령어 FETCH
 - 명령어가 들어가 있는 ROM의 주소 = PC 레지스터 값
 
-![image.png](../Embedded_SW/img/PCR.png)
+![image.png](../img/PCR.png)
 
 ## THUMB2
 
@@ -283,13 +283,13 @@ CONTROL=0x00000001
 
 ### 개념도
 
-![IMG_1622.jpeg](../Embedded_SW/img/pipeline.jpeg)
+![IMG_1622.jpeg](../img/pipeline.jpeg)
 
 - 특정 명령어를 실행할 때 PC = 현재 FETCH 하는 명령어의 주소를 가지고 있다
 
 ### 플래시 메모리 인터페이스
 
-![IMG_1623.jpeg](../Embedded_SW/img/flash.jpeg)
+![IMG_1623.jpeg](../img/flash.jpeg)
 
 ## LR
 
@@ -313,7 +313,7 @@ CONTROL=0x00000001
 
 ### Core registers and AAPCS usage
 
-![IMG_1624.jpeg](../Embedded_SW/img/core_registers&AAPCS.jpeg)
+![IMG_1624.jpeg](../img/core_registers&AAPCS.jpeg)
 
 ### Subroutine Calls
 
@@ -336,12 +336,12 @@ ARM 상태에서 실행된 경우 0으로 설정
 
 ## xPSR
 
-![IMG_1625.jpeg](../Embedded_SW/img/xPSR.jpeg)
+![IMG_1625.jpeg](../img/xPSR.jpeg)
 
 ### APSR
 
 application Program Status Register
 
-![image.png](../Embedded_SW/img/APSR.png)
+![image.png](../img/APSR.png)
 
 ##

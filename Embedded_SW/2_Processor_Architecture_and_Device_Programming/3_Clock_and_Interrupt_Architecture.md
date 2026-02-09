@@ -21,9 +21,9 @@
 
 ### 클럭 시스템 (제어기)
 
-![CLK_SYS_Control.jpeg](../Embedded_SW/img/CLK_SYS_Control.jpeg)
+![CLK_SYS_Control.jpeg](../img/CLK_SYS_Control.jpeg)
 
-![STM_IDE_CLK_Configration.jpg](../Embedded_SW/img/STM_IDE_CLK_Configration.jpg)
+![STM_IDE_CLK_Configration.jpg](../img/STM_IDE_CLK_Configration.jpg)
 
 → STM32 cube IDE 활용하면 계산할 필요 없이 CLK 변경 가능
 
@@ -113,7 +113,7 @@
 
 ## 버튼키 인터럽트
 
-![BTN_Key_Interrupt.jpeg](../Embedded_SW/img/BTN_Key_Interrupt.jpeg)
+![BTN_Key_Interrupt.jpeg](../img/BTN_Key_Interrupt.jpeg)
 
 ## NVIC
 
@@ -146,7 +146,7 @@
 
 ### NVIC 개념도
 
-![NVIC_Concept_Map.jpeg](../Embedded_SW/img/NVIC_Concept_Map.jpeg)
+![NVIC_Concept_Map.jpeg](../img/NVIC_Concept_Map.jpeg)
 
 ### NVIC 레지스터 → 특권 모드에서만 작동
 
@@ -245,7 +245,7 @@
 
 ### SYSCFG_MEMRMP
 
-![SYSCFG_MEMRMP.jpeg](../Embedded_SW/img/SYSCFG_MEMRMP.jpeg)
+![SYSCFG_MEMRMP.jpeg](../img/SYSCFG_MEMRMP.jpeg)
 
 ## VTOR와 벡터 재배치
 
@@ -270,7 +270,7 @@
 
 ### 예외처리 벡터 테이블 (암기 하자)
 
-![Exception_Vector_Table.jpeg](../Embedded_SW/img/Exception_Vector_Table.jpeg)
+![Exception_Vector_Table.jpeg](../img/Exception_Vector_Table.jpeg)
 
 ## EXTI
 
@@ -283,11 +283,11 @@
 
 ### EXTI 블록 다이어그램
 
-![image.png](../Embedded_SW/img/EXTI_Block_Diagram.jpeg)
+![image.png](../img/EXTI_Block_Diagram.jpeg)
 
 ### EXTI0
 
-![image.png](../Embedded_SW/img/EXTI0.jpeg)
+![image.png](../img/EXTI0.jpeg)
 
 ### 인터럽트 시퀀스
 
@@ -303,7 +303,7 @@
 
 ### Pending register (EXTI_PR)
 
-![image.png](../Embedded_SW/img/Pending_Register.jpeg)
+![image.png](../img/Pending_Register.jpeg)
 
 ### 레벨 인터럽트 vs. 펄스 인터럽트
 
@@ -330,7 +330,7 @@
 
 ### SYSTICK 개념도
 
-![image.png](../Embedded_SW/img/SYSYICK_Concept_Map.jpeg)
+![image.png](../img/SYSYICK_Concept_Map.jpeg)
 
 ## 우선순위
 

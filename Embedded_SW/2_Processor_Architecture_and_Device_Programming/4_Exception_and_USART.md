@@ -145,7 +145,7 @@
 - 이 메커니즘은 익셉션 서비스의 속도를 높힘
 - 익셉션 처리기 완료 시 펜드 중인 익셉션이 있는 경우 스텍 팝(unstacking)을 건너 뛰고 제어가 새 익셉션 처리기로 전송
     
-    ![Tail_Chaining.jpeg](../Embedded_SW/img/Tail_Chaining.jpeg)
+    ![Tail_Chaining.jpeg](../img/Tail_Chaining.jpeg)
     
 
 ## 지연 도착
@@ -169,7 +169,7 @@
 
 ### 인터럽트 중첩 경우
 
-![Nested_Interrupt.jpeg](../Embedded_SW/img/Nested_Interrupt.jpeg)
+![Nested_Interrupt.jpeg](../img/Nested_Interrupt.jpeg)
 
 ## CH6. USART
 
@@ -181,11 +181,11 @@
     
     단점 : 속도 변경 어려움
     
-    ![Async_method.jpeg](../Embedded_SW/img/Async_method.jpeg)
+    ![Async_method.jpeg](../img/Async_method.jpeg)
     
 - 동기 → 주요 차이는 CLK이 존재한다
     
-    ![Sync_method.jpeg](../Embedded_SW/img/Sync_method.jpeg)
+    ![Sync_method.jpeg](../img/Sync_method.jpeg)
     
 - UART
     - 비동기 송수신기
@@ -234,7 +234,7 @@
 
 ### USART Block Diagram
 
-![USART_Block_Diagram.jpeg](../Embedded_SW/img/USART_Block_Diagram.jpeg)
+![USART_Block_Diagram.jpeg](../img/USART_Block_Diagram.jpeg)
 
 ### USART 구조
 
@@ -280,4 +280,4 @@
 
 ### USART 인터럽트 종류
 
-![USART_Interrupt.jpeg](../Embedded_SW/img/USART_Interrupt.jpeg)
+![USART_Interrupt.jpeg](../img/USART_Interrupt.jpeg)

@@ -32,11 +32,11 @@
 
 ### 전반적인 구성
 
-![IMG_1626.jpeg](../Embedded_SW/img/STM32_structure.jpeg)
+![IMG_1626.jpeg](../img/STM32_structure.jpeg)
 
 ### GPIO block diagram
 
-![IMG_1629.jpeg](../Embedded_SW/img/GPIO_Block_Diagram.jpeg)
+![IMG_1629.jpeg](../img/GPIO_Block_Diagram.jpeg)
 
 Registet는 모두 32bit
 
@@ -105,11 +105,11 @@ Registet는 모두 32bit
 
 ### Memory oragnization
 
-![IMG_1630.jpeg](../Embedded_SW/img/STM32F4x_Memory_Oragnization.jpeg)
+![IMG_1630.jpeg](../img/STM32F4x_Memory_Oragnization.jpeg)
 
 ### STM32F42x 프로세서의 구조
 
-![IMG_1631.jpeg](../Embedded_SW/img/STM32F42x_Processor_Structure.jpeg)
+![IMG_1631.jpeg](../img/STM32F42x_Processor_Structure.jpeg)
 
 - I-Bus
     - 코어에서 명령어를 가져오는 버스 / (내부 플래시 메모리, SRAM)과 연결
@@ -138,12 +138,12 @@ Registet는 모두 32bit
     - 플래시 메모리 읽기 / 쓰기 보호, BOR 레벨, 워치독 리셋 등의 정보를 담고 있는 옵션 바이트
 - BOOT[1:0] 핀을 통한 3가지 부팅 모드
     
-    ![IMG_1632.jpeg](../Embedded_SW/img/BOOT[1_0]_Pin.jpeg)
+    ![IMG_1632.jpeg](../img/BOOT[1_0]_Pin.jpeg)
     
 
 ## AMBA와 메모리맵
 
-![IMG_1633.jpeg](../Embedded_SW/img/AMBA.jpeg)
+![IMG_1633.jpeg](../img/AMBA.jpeg)
 
 ## MMIO
 
@@ -169,7 +169,7 @@ Registet는 모두 32bit
 - 32MB SRAM 앨리아스 영역에 대한 액세스는 1MB SRAM 비트 대역 매핑
 - 비트 밴드 공식
     
-    ![IMG_1635.jpeg](../Embedded_SW/img/Bit_Band_Pic.jpeg)
+    ![IMG_1635.jpeg](../img/Bit_Band_Pic.jpeg)
     
 
 ### 비 원자적 액세스 방식 - GPIO_ODR의 사례

@@ -18,11 +18,11 @@
 
 ### TIMER1 블럭 다이어그램
 
-![TIMER1_Block_Diagram.jpeg](../Embedded_SW/img/TIMER1_Block_Diagram.jpeg)
+![TIMER1_Block_Diagram.jpeg](../img/TIMER1_Block_Diagram.jpeg)
 
 ### IC(input capture) 타이머 블럭 다이어 그램
 
-![IC_Timer_Block_Diagram.jpeg](../Embedded_SW/img/IC_Timer_Block_Diagram.jpeg)
+![IC_Timer_Block_Diagram.jpeg](../img/IC_Timer_Block_Diagram.jpeg)
 
 ### 입력 캡쳐 모드
 
@@ -54,11 +54,11 @@
 
 ## DMA
 
-![DMA_Block_Diagram.jpeg](../Embedded_SW/img/DMA_Block_Diagram.jpeg)
+![DMA_Block_Diagram.jpeg](../img/DMA_Block_Diagram.jpeg)
 
 ### DMA 동작 개념도
 
-![DMA_Process_Diagram.jpeg](../Embedded_SW/img/DMA_Process_Diagram.jpeg)
+![DMA_Process_Diagram.jpeg](../img/DMA_Process_Diagram.jpeg)
 
 ### DMA 설명
 

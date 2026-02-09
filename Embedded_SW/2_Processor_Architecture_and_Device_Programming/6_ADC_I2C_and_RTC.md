@@ -13,7 +13,7 @@
 
 ### ADC Block Diagram
 
-![ADC_Block_Diagram.jpeg](../Embedded_SW/img/ADC_Block_Diagram.jpeg)
+![ADC_Block_Diagram.jpeg](../img/ADC_Block_Diagram.jpeg)
 
 ### STM 32 ADC 특징
 
@@ -76,7 +76,7 @@
 - ADC는 정확하게 변환을 시작하기 전에 tSTAB의 안정화시간이 필요
 - ADC 변환이 시작된 후 15 클럭 사잌믈 후에 EOC 플래그가 설정되고 16비트 ADC 데이터 레지스터에 변환 결과가 저장된다
     
-    ![Timing_Diagram.jpeg](../Embedded_SW/img/Timing_Diagram.jpeg)
+    ![Timing_Diagram.jpeg](../img/Timing_Diagram.jpeg)
     
 
 ### Channel-by-channel programmable sample time
@@ -131,7 +131,7 @@ c.f ) UART와 비교
 
 ### I2C 개념도
 
-![I2C_Concept_Map.jpeg](../Embedded_SW/img/I2C_Concept_Map.jpeg)
+![I2C_Concept_Map.jpeg](../img/I2C_Concept_Map.jpeg)
 
 ### I2C 버스 설명
 
@@ -145,16 +145,16 @@ c.f ) UART와 비교
 
 ### I2C 프로토콜
 
-![I2C_Protocol.jpeg](../Embedded_SW/img/I2C_Protocol.jpeg)
+![I2C_Protocol.jpeg](../img/I2C_Protocol.jpeg)
 
-![I2C_Transfer_Timming.jpeg](../Embedded_SW/img/I2C_Transfer_Timming.jpeg)
+![I2C_Transfer_Timming.jpeg](../img/I2C_Transfer_Timming.jpeg)
 
 1. START 신호
 2. 슬레이브 주소 전송
 3. 데이터 전송
 4. STOP 신호
 
-![Master_Read_Write.jpeg](../Embedded_SW/img/Master_Read_Write.jpeg)
+![Master_Read_Write.jpeg](../img/Master_Read_Write.jpeg)
 
 ### I2C 버스 설명
 
@@ -285,4 +285,4 @@ c.f ) UART와 비교
 
 ### RTC Block Diagram
 
-![image.png](../Embedded_SW/img/RTC_Block_Diagram.jpeg)
+![image.png](../img/RTC_Block_Diagram.jpeg)
