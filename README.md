@@ -72,13 +72,25 @@ TheSSEN_TIL
 │
 ├─ Embedded_SW
 │  ├─ img
-│  ├─ 1_Embedded_SW_Basics1.md
-│  ├─ 2_Embedded_SW_Basic2.md
-│  ├─ 3_Core_Architecture_and_Execution_Model.md
-│  ├─ 4_GPIO_and_Memory_Bus_Architecture.md
-│  ├─ 5_Clock_and_Interrupt_Architecture.md
-│  ├─ 6_Exception_and_USART.md
-│  └─ 
+│  ├─ 1_Embedded_SW_Basics
+│  │  ├─ 
+│  │  └─ 2_Embedded_SW_Basic2.md
+│  │
+│  ├─ 2_Processor_Architecture_Device_Programming
+│  │  ├─ 1_Core_Architecture_and_Execution_Model.md
+│  │  ├─ 2_GPIO_and_Memory_Bus_Architecture.md
+│  │  ├─ 3_Clock_and_Interrupt_Architecture.md
+│  │  ├─ 4_Exception_and_USART.md
+│  │  ├─ 5_ICTimer_and_DMA.md
+│  │  └─ 6_ADC_I2C_and_RTC.md
+│  │
+│  ├─ 3_RTOS
+│  │  ├─ 1_RTOS_and_FreeRTOS_Basic.md
+│  │  ├─ 2_FreeRTOS_Task_Timing_and_Critical_Sections.md
+│  │  ├─ 3_
+│  │  ├─ 4_
+│  │  ├─ 5_
+│  │  └─ 6_
 │
 └─ README.md
 
