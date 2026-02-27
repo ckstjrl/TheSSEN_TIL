@@ -66,6 +66,8 @@ echo "Is this password correct? $password"
 
 ![demo_ws1](img_for_5/ws1.gif)
 
+![img_ws1](img_for_5/ws1.png)
+
 ---
 
 ## ws2.sh — 파일에서 점수 추출 및 합계 계산
@@ -119,7 +121,9 @@ echo "total $sum"
 
 ### 실행 결과
 
-![demo_ws1](img_for_5/ws2.gif)
+![demo_ws2](img_for_5/ws2.gif)
+
+![img_ws2](img_for_5/ws2.png)
 
 ---
 
@@ -173,7 +177,9 @@ done
 
 ### 실행 결과
 
-![demo_ws1](img_for_5/ws3.gif)
+![demo_ws3](img_for_5/ws3.gif)
+
+![img_ws3](img_for_5/ws3.png)
 
 ---
 
