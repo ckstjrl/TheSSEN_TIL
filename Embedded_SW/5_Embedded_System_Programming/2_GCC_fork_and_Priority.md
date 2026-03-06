@@ -140,7 +140,7 @@ NICE 값이 19로 변경됨 → 우선순위가 가장 낮은 PRI는 99이므로
 
 ![image.png](img_for_2/sudo_nice.png)
 
-NICE 값을 현재보다 낮추기 위해서는 sudo 권한 존재
+NICE 값을 현재보다 낮추기 위해서는 sudo 권한 필요
 
 일반 프로세스가 가질 수 있는 가장 높은 우선순위는 PRI 60이다
 
