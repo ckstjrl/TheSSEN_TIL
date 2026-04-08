@@ -13,9 +13,8 @@ LIG Nex1 The SSEN 임베디드 스쿨 수업 TIL
 
 ## 📁 Directory Structure
 ```
-TheSSEN_TIL
+ThESEN_TIL
 ├─ C_study
-│  ├─ img
 │  ├─ 1_C_DataTypes.md
 │  ├─ 2_C_Operators_ControlFlow.md
 │  ├─ 3_C_Func_Array_Pointer.md
@@ -40,10 +39,10 @@ TheSSEN_TIL
 │  └─ 4_C++_OOP_Basic4.md
 │
 ├─ C#
+│  ├─ 1_C#_Basic1.md
 │  ├─ 2_C#_Basic2
 │  ├─ 3_C#_Basic3
-│  ├─ 4_C#_Network
-│  └─ 1_C#_Basic1.md
+│  └─ 4_C#_Network
 │
 ├─ MVVM
 │  ├─ MVVM_Basic
@@ -71,26 +70,62 @@ TheSSEN_TIL
 │     └─ Thread_prac.xaml.cs
 │
 ├─ Embedded_SW
-│  ├─ img
-│  ├─ 1_Embedded_SW_Basics
-│  │  ├─ 
-│  │  └─ 2_Embedded_SW_Basic2.md
 │  │
-│  ├─ 2_Processor_Architecture_Device_Programming
+│  ├─ 1_Embedded_SW_Basic
+│  │  ├─ 1_Embedded_SW_Basic1.md
+│  │  ├─ 2_Embedded_SW_Basic2.md
+│  │  ├─ Interview_Preparation.md
+│  │  └─ Summary_Embedded_SW_Basic.md
+│  │
+│  ├─ 2_Processor_Architecture_and_Device_Programming
 │  │  ├─ 1_Core_Architecture_and_Execution_Model.md
 │  │  ├─ 2_GPIO_and_Memory_Bus_Architecture.md
 │  │  ├─ 3_Clock_and_Interrupt_Architecture.md
 │  │  ├─ 4_Exception_and_USART.md
 │  │  ├─ 5_ICTimer_and_DMA.md
-│  │  └─ 6_ADC_I2C_and_RTC.md
+│  │  ├─ 6_ADC_I2C_and_RTC.md
+│  │  └─ Summary_Processor_Architecture_and_Device_Programming.md
 │  │
 │  ├─ 3_RTOS
 │  │  ├─ 1_RTOS_and_FreeRTOS_Basic.md
 │  │  ├─ 2_FreeRTOS_Task_Timing_and_Critical_Sections.md
-│  │  ├─ 3_
-│  │  ├─ 4_
-│  │  ├─ 5_
-│  │  └─ 6_
+│  │  ├─ 3_FreeRTOS_Context_Switch_Memory_and_Semaphores.md
+│  │  └─ 5_FreeRTOS_Porting.md
+│  │
+│  ├─ 4_Embedded_Linux_basic
+│  │  ├─ 1_Shell_Programming.md
+│  │  ├─ 3_Shell_Programming_Expansion.md
+│  │  ├─ 4_Shell_Control_Structure.md
+│  │  └─ 5_Shell_Programming_Prac.md
+│  │
+│  ├─ 5_Embedded_System_Programming
+│  │  ├─ Linux_IPC-POSIX_Message_Queue_Prac
+│  │  │  ├─ calc_client.c
+│  │  │  ├─ calc_server.c
+│  │  │  └─ Makefile
+│  │  │
+│  │  ├─ 1_Vim_Editor_Lib_and_Make.md
+│  │  ├─ 2_GCC_fork_and_Priority.md
+│  │  ├─ 3_VirtualMemory_Thread_and_UnnamedPipe.md
+│  │  └─ 4_IPC.md
+│  │
+│  ├─ 6_Embedded_Network
+│  │  ├─ Linux_Network_TCP_Prac
+│  │  │  ├─ calc_client.c
+│  │  │  ├─ calc_server.c
+│  │  │  └─ Makefile
+│  │  │
+│  │  ├─ 1_TCP_UDP_HTTP_Thread_select_FileTransfer.md
+│  │  └─ 2_DNS.md
+│  │
+│  └─ 7_Linux_Kernel_Programming
+│     ├─ 1_ZYNQ_Architecture_and_Environment_Setup.md
+│     ├─ 3_Direct_Register_Control_with_ioremap.md
+│     ├─ 4_ioctl_KernelTimer_and_Interrupt.md
+│     ├─ 5_Workqueue_and_Mutex.md
+│     ├─ 6_IO_Multiplex_Kthread_and_DMA.md
+│     ├─ 7_mmap_and_DeviceTreeBasic.md
+│     └─ 8_DeviceTree_Petalinux_DeviceTree_and_DTO.md
 │
 └─ README.md
 
